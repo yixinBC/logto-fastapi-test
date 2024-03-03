@@ -9,7 +9,7 @@ docker-compose up -p logto -f logto-docker-compose.yml
 ```
 
 ```bash
-unicorn main:app --reload
+uvicorn main:app --reload
 ```
 
 * License: MIT
